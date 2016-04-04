@@ -1,0 +1,15 @@
+build_type: patch
+package_version: 1
+package_cloud: distorhead/main
+patch: apatchy_log.patch
+build_dep: httpd
+
+os:
+  centos-centos6:
+    package_name: httpd-2.2.15
+  centos-centos7:
+    package_name: httpd-2.4.6
+
+target:
+- centos-centos6
+#- centos-centos7

@@ -1,0 +1,12 @@
+diff --git a/server/log.c b/server/log.c
+index 42a7729..ccffbc5 100644
+--- a/server/log.c
++++ b/server/log.c
+@@ -777,6 +777,7 @@ AP_DECLARE(void) ap_log_pid(apr_pool_t *p, const char *filename)
+     apr_status_t rv;
+     const char *fname;
+ 
++    printf("-- A PATCHY SERVER : ap_log_pid --\n");
+     if (!filename) {
+         return;
+     }
