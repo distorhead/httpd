@@ -2,7 +2,6 @@ build_type: patch
 package_version: 1
 package_cloud: distorhead/main
 patch: apatchy_log.patch
-build_dep: httpd
 
 os:
   centos-centos6:
