@@ -11,5 +11,5 @@ centos/centos7:
   package_version: 2.4.6
 
 target:
-- centos-centos6
-- centos-centos7
+- centos/centos6
+- centos/centos7
